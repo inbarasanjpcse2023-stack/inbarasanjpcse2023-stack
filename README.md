@@ -115,14 +115,6 @@ public class Inbarasan {
 
 ---
 
-## 📈 Activity Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=inbarasanjpcse2023-stack&theme=tokyo-night&bg_color=0d1117&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true" width="100%"/>
-</div>
-
----
-
 ## 🏆 Trophy Wall
 
 <div align="center">
