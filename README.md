@@ -208,7 +208,7 @@ public class Inbarasan {
 
 | 🏆 | Achievement | Details |
 |:--:|:-----------:|:-------:|
-| 💻 | **LeetCode Problem Solver** | Solved **170+** DSA problems on LeetCode |
+| 💻 | **LeetCode Problem Solver** | Solved **130+** DSA problems on LeetCode |
 | 🥇 | **LeetCode Contest Rating** | Maximum contest rating of **1429** |
 | ⚙️ | **Workflow Automation Builder** | Built **3** workflow automation projects using **n8n** |
 | 🧠 | **DSA Expertise** | Proficient in Arrays, Strings, Linked Lists, Trees, Graphs, DP & Recursion |
