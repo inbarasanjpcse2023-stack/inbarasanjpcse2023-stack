@@ -1,9 +1,28 @@
+<!-- ═══════════════════════════ HERO BANNER ═══════════════════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Inbarasan%20J%20P&fontSize=52&fontColor=fff&animation=scaleIn&fontAlignY=36&desc=Aspiring%20Software%20Engineer%20%7C%20Full%20Stack%20Developer%20%7C%20AI%20%26%20Data%20Enthusiast&descAlignY=60&descSize=17&stroke=ffffff&strokeWidth=1" width="100%"/>
 
-
+<!-- ═══════════════════════════ SOCIAL BADGES ════════════════════════ -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=Hey+there%2C+I'm+innbbbbaaaaaa+%F0%9F%91%8B;Full+Stack+Developer+%7C+Java+Enthusiast;AI+%2B+ML+Explorer+%F0%9F%A4%96;Building+scalable+solutions+one+line+at+a+time)](https://git.io/typing-svg)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/inbarasan-jp)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:inbarasan0809@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/inbarasanjpcse2023-stack)
 
+![Profile Views](https://komarev.com/ghpvc/?username=inbarasanjpcse2023-stack&color=70a5fd&style=for-the-badge&label=Profile+Views)
+
+</div>
+
+<!-- ═══════════════════════════ TYPING SVG ═══════════════════════════ -->
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2800&pause=900&color=70A5FD&center=true&vCenter=true&width=780&lines=Hey+there%2C+I'm+Inbarasan+%F0%9F%91%8B;Full+Stack+Developer+%7C+Java+Enthusiast+%E2%98%95;AI+%2B+ML+Explorer+%F0%9F%A4%96;Deloitte+%7C+Tata+GenAI+%7C+PwC+Certified+%F0%9F%8F%85;Building+scalable+solutions+one+commit+at+a+time+%F0%9F%9A%80)](https://git.io/typing-svg)
+
+</div>
+
+<!-- ════════════════════════ SNAKE ANIMATION DIVIDER ════════════════ -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="snake animation" width="100%"/>
 </div>
 
 ---
@@ -41,46 +60,54 @@ public class Inbarasan {
 
 <br clear="right"/>
 
-📫 **Reach me:** [inbarasan0809@gmail.com](mailto:inbarasan0809@gmail.com) &nbsp;|&nbsp; [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/inbarasan-jp) &nbsp;|&nbsp; [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com)
-
-![Profile Views](https://komarev.com/ghpvc/?username=inbarasanjpcse2023-stack&color=70a5fd&style=flat-square&label=Profile+Views)
+📫 **Reach me:** [inbarasan0809@gmail.com](mailto:inbarasan0809@gmail.com) &nbsp;|&nbsp; [LinkedIn](https://linkedin.com/in/inbarasan-jp) &nbsp;|&nbsp; [LeetCode](https://leetcode.com)
 
 ---
-# 🛠️ Tech Stack
 
-<div align="center">
+## 🛠️ Tech Stack
 
 **Languages**
 
-[![Java](https://skillicons.dev/icons?i=java)](https://www.java.com)
-[![Python](https://skillicons.dev/icons?i=python)](https://python.org)
-[![JavaScript](https://skillicons.dev/icons?i=js)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 **Frontend**
 
-[![React](https://skillicons.dev/icons?i=react)](https://reactjs.org)
-[![HTML5](https://skillicons.dev/icons?i=html)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://skillicons.dev/icons?i=css)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
-**Backend & Databases**
+**Backend**
 
-[![Node.js](https://skillicons.dev/icons?i=nodejs)](https://nodejs.org)
-[![Express](https://skillicons.dev/icons?i=express)](https://expressjs.com)
-[![MySQL](https://skillicons.dev/icons?i=mysql)](https://mysql.com)
-[![MongoDB](https://skillicons.dev/icons?i=mongodb)](https://mongodb.com)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
 
-**Cloud, DevOps & Tooling**
+**Databases**
 
-[![AWS](https://skillicons.dev/icons?i=aws)](https://aws.amazon.com)
-[![Git](https://skillicons.dev/icons?i=git)](https://git-scm.com)
-[![GitHub](https://skillicons.dev/icons?i=github)](https://github.com)
-[![VSCode](https://skillicons.dev/icons?i=vscode)](https://code.visualstudio.com)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 
-</div>
+**Cloud & DevOps**
 
----
- 
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
 
+**Libraries & Tools**
+
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 
 ---
 
@@ -105,6 +132,21 @@ public class Inbarasan {
 
 ---
 
+## 📈 Activity Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=inbarasanjpcse2023-stack&theme=tokyo-night&bg_color=0d1117&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true" width="100%"/>
+</div>
+
+---
+
+## 🏆 Trophy Wall
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=inbarasanjpcse2023-stack&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=4"/>
+</div>
+
+---
 
 ## 💼 Work Experience
 
@@ -182,13 +224,79 @@ public class Inbarasan {
 
 ---
 
+## 📜 Certifications
+
+<div align="center">
+
+### 🏢 Industry Simulations & Professional Certifications
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+**🔵 Deloitte**
+
+[![Deloitte](https://img.shields.io/badge/Deloitte-86BC25?style=for-the-badge&logo=deloitte&logoColor=white)](https://www.theforage.com)
+
+**Data Analytics**
+*Job Simulation · Forage*
+
+Data cleaning · EDA · Dashboarding
+Statistical analysis · Business insights
+
+</td>
+<td align="center" width="33%">
+
+**🟣 Tata Group**
+
+[![Tata](https://img.shields.io/badge/Tata%20Consultancy-0052CC?style=for-the-badge&logo=tata&logoColor=white)](https://www.theforage.com)
+
+**Generative AI + Data Analytics**
+*Job Simulation · Forage*
+
+GenAI fundamentals · LLM applications
+Data-driven storytelling · AI tools
+
+</td>
+<td align="center" width="33%">
+
+**🔴 PwC Switzerland**
+
+[![PwC](https://img.shields.io/badge/PwC-D04A02?style=for-the-badge&logo=pwc&logoColor=white)](https://www.theforage.com)
+
+**Cybersecurity**
+*Job Simulation · Forage*
+
+Risk assessment · Threat analysis
+Security frameworks · Incident response
+
+</td>
+</tr>
+</table>
+
+### 🎓 Technical Certifications
+
+| Badge | Certification | Issuer | Domain |
+|:-----:|:-------------|:------:|:------:|
+| ☁️ | **Azure AI Fundamentals (DP-900)** | Microsoft | AI / Cloud |
+| 🤖 | **Generative AI** | Databricks | AI / LLMs |
+| 💾 | **Database Management System & SQL** | Infosys Springboard | Backend / DB |
+| 🖥️ | **Human Computer Interaction** | NPTEL | UX / Design |
+| 📊 | **Business Intelligence** | NPTEL | Analytics |
+| 💻 | **C Programming** | PrepInsta | Programming |
+| 🧮 | **Data Structures & Algorithms** | PrepInsta | DSA |
+
+</div>
+
+---
+
 ## 🏅 Achievements
 
 <div align="center">
 
 | 🏆 | Achievement | Details |
 |:--:|:-----------:|:-------:|
-| 💻 | **LeetCode Problem Solver** | Solved **130+** DSA problems on LeetCode |
+| 💻 | **LeetCode Problem Solver** | Solved **170+** DSA problems on LeetCode |
 | 🥇 | **LeetCode Contest Rating** | Maximum contest rating of **1429** |
 | ⚙️ | **Workflow Automation Builder** | Built **3** workflow automation projects using **n8n** |
 | 🧠 | **DSA Expertise** | Proficient in Arrays, Strings, Linked Lists, Trees, Graphs, DP & Recursion |
