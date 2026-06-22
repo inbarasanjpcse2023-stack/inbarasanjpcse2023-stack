@@ -1,7 +1,229 @@
-<!-- ═══════════════════════════ HERO BANNER ═══════════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Inbarasan%20J%20P&fontSize=52&fontColor=fff&animation=scaleIn&fontAlignY=36&desc=Aspiring%20Software%20Engineer%20%7C%20Full%20Stack%20Developer%20%7C%20AI%20%26%20Data%20Enthusiast&descAlignY=60&descSize=17&stroke=ffffff&strokeWidth=1" width="100%"/>
+<!-- ═══════════════════════════════════════════════════════════════════
+     3-D ANIMATED HERO — pure SVG, no external service required
+     ═══════════════════════════════════════════════════════════════════ -->
+<div align="center">
 
-<!-- ═══════════════════════════ SOCIAL BADGES ════════════════════════ -->
+<svg viewBox="0 0 900 340" xmlns="http://www.w3.org/2000/svg" width="100%">
+  <defs>
+    <!-- deep-space background gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#020817"/>
+      <stop offset="50%"  stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0a0f1e"/>
+    </linearGradient>
+
+    <!-- purple-to-blue glow gradient for name -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#a78bfa"/>
+      <stop offset="50%"  stop-color="#70a5fd"/>
+      <stop offset="100%" stop-color="#38bdae"/>
+    </linearGradient>
+
+    <!-- shimmer gradient for top edge -->
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#a78bfa" stop-opacity="0"/>
+      <stop offset="30%"  stop-color="#70a5fd" stop-opacity="1"/>
+      <stop offset="70%"  stop-color="#38bdae" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- glow filter for name 3-D effect -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- soft drop-shadow for tagline -->
+    <filter id="softShadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#70a5fd" flood-opacity="0.4"/>
+    </filter>
+
+    <!-- orbiting particle motion paths -->
+    <path id="orbit1" d="M450,170 m-130,0 a130,40 0 1,1 260,0 a130,40 0 1,1 -260,0" fill="none"/>
+    <path id="orbit2" d="M450,170 m-90,0 a90,90 0 1,1 180,0 a90,90 0 1,1 -180,0" fill="none"/>
+    <path id="orbit3" d="M450,170 m-160,0 a160,55 0 1,0 320,0 a160,55 0 1,0 -320,0" fill="none"/>
+  </defs>
+
+  <!-- ── Background ── -->
+  <rect width="900" height="340" fill="url(#bg)" rx="0"/>
+
+  <!-- ── Star field ── -->
+  <g opacity="0.6">
+    <circle cx="45"  cy="25"  r="1.2" fill="#fff"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="120" cy="60"  r="0.8" fill="#a78bfa"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.3s" repeatCount="indefinite"/></circle>
+    <circle cx="200" cy="20"  r="1.0" fill="#70a5fd"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="45"  r="0.7" fill="#fff"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="380" cy="15"  r="1.1" fill="#38bdae"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.0s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="30"  r="0.9" fill="#fff"><animate attributeName="opacity" values="0.6;1;0.6" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="620" cy="55"  r="1.3" fill="#a78bfa"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.6s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="18"  r="0.8" fill="#70a5fd"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="40"  r="1.0" fill="#38bdae"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="870" cy="22"  r="0.7" fill="#fff"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="55"  cy="300" r="1.0" fill="#a78bfa"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="160" cy="320" r="0.8" fill="#fff"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="750" cy="310" r="1.1" fill="#70a5fd"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.0s" repeatCount="indefinite"/></circle>
+    <circle cx="850" cy="290" r="0.9" fill="#38bdae"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.9s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- ── Top shimmer bar ── -->
+  <rect x="0" y="0" width="900" height="3" fill="url(#shimmer)" rx="2">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ── GitHub Octocat 3-D sphere (left side) ── -->
+  <!-- sphere base glow -->
+  <circle cx="155" cy="170" r="85" fill="#0d1a2e" opacity="0.9"/>
+  <circle cx="155" cy="170" r="83" fill="none" stroke="#70a5fd" stroke-width="1.5" opacity="0.6">
+    <animate attributeName="r" values="83;87;83" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <!-- inner purple glow -->
+  <circle cx="155" cy="170" r="68" fill="none" stroke="#a78bfa" stroke-width="0.8" opacity="0.3"/>
+  <!-- GitHub mark (simplified Octocat head + body in SVG path) -->
+  <g transform="translate(155,170)" filter="url(#glow)">
+    <!-- head -->
+    <circle cx="0" cy="-12" r="28" fill="#c9d1d9"/>
+    <!-- ear-fins -->
+    <ellipse cx="-19" cy="-26" rx="8" ry="11" fill="#c9d1d9" transform="rotate(-30,-19,-26)"/>
+    <ellipse cx="19"  cy="-26" rx="8" ry="11" fill="#c9d1d9" transform="rotate(30,19,-26)"/>
+    <!-- face shadow -->
+    <circle cx="0" cy="-12" r="22" fill="#0d1117"/>
+    <!-- eyes -->
+    <circle cx="-8" cy="-16" r="3.5" fill="#c9d1d9"/>
+    <circle cx="8"  cy="-16" r="3.5" fill="#c9d1d9"/>
+    <!-- body / tentacles -->
+    <rect x="-18" y="16" width="36" height="24" rx="10" fill="#c9d1d9"/>
+    <rect x="-18" y="16" width="36" height="18" rx="8"  fill="#0d1117"/>
+    <!-- tentacle lines -->
+    <line x1="-12" y1="32" x2="-18" y2="50" stroke="#c9d1d9" stroke-width="5" stroke-linecap="round"/>
+    <line x1="0"   y1="34" x2="0"   y2="52" stroke="#c9d1d9" stroke-width="5" stroke-linecap="round"/>
+    <line x1="12"  y1="32" x2="18"  y2="50" stroke="#c9d1d9" stroke-width="5" stroke-linecap="round"/>
+    <animate attributeName="transform" values="translate(0,0);translate(0,-5);translate(0,0)" dur="4s" repeatCount="indefinite" additive="sum"/>
+  </g>
+
+  <!-- ── Orbiting code particles ── -->
+  <!-- orbit ring 1 (tilted ellipse) -->
+  <ellipse cx="155" cy="170" rx="100" ry="30" fill="none" stroke="#70a5fd" stroke-width="0.6" opacity="0.25" transform="rotate(-20,155,170)"/>
+  <!-- orbit ring 2 -->
+  <ellipse cx="155" cy="170" rx="108" ry="38" fill="none" stroke="#a78bfa" stroke-width="0.6" opacity="0.2" transform="rotate(15,155,170)"/>
+
+  <!-- orbiting dot 1 -->
+  <circle r="5" fill="#70a5fd" filter="url(#glow)">
+    <animateMotion dur="5s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#orbit1"/>
+    </animateMotion>
+  </circle>
+  <!-- orbiting dot 2 (counter) -->
+  <circle r="4" fill="#a78bfa" filter="url(#glow)">
+    <animateMotion dur="7s" repeatCount="indefinite" rotate="auto" keyPoints="1;0" keyTimes="0;1" calcMode="linear">
+      <mpath href="#orbit2"/>
+    </animateMotion>
+  </circle>
+  <!-- orbiting dot 3 -->
+  <circle r="3.5" fill="#38bdae" filter="url(#glow)">
+    <animateMotion dur="6s" repeatCount="indefinite" rotate="auto" begin="2s">
+      <mpath href="#orbit3"/>
+    </animateMotion>
+  </circle>
+
+  <!-- ── NAME — 3-D layered text ── -->
+  <!-- shadow layer (offset, dark) -->
+  <text x="532" y="133" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-weight="900" font-size="58" fill="#0a0f1e" letter-spacing="3" opacity="0.8">INBARASAN J P</text>
+  <!-- mid-tone layer -->
+  <text x="530" y="131" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-weight="900" font-size="58" fill="#1e3a5f" letter-spacing="3" opacity="0.9">INBARASAN J P</text>
+  <!-- main gradient layer -->
+  <text x="529" y="129" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-weight="900" font-size="58" fill="url(#nameGrad)" letter-spacing="3" filter="url(#glow)">
+    INBARASAN J P
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- ── TAGLINE ── -->
+  <text x="529" y="163" text-anchor="middle" font-family="'Courier New',monospace" font-size="13.5" fill="#8b949e" letter-spacing="4" font-weight="600">
+    ASPIRING SOFTWARE ENGINEER  ·  FULL STACK DEVELOPER  ·  AI &amp; DATA ENTHUSIAST
+  </text>
+
+  <!-- ── Animated underline beneath tagline ── -->
+  <line x1="290" y1="172" x2="290" y2="172" stroke="url(#shimmer)" stroke-width="1.5">
+    <animate attributeName="x2" values="290;768;290" dur="2.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4,0,0.2,1;0.4,0,0.2,1"/>
+    <animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- ── TYPING role cards ── -->
+  <!-- card 1 -->
+  <g>
+    <rect x="308" y="190" width="150" height="34" rx="8" fill="#0d1a2e" stroke="#70a5fd" stroke-width="0.8" opacity="0.85"/>
+    <text x="383" y="212" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" fill="#70a5fd" font-weight="700">☕ Java Developer</text>
+    <animate attributeName="opacity" values="0;1;1;0" dur="6s" begin="0s" repeatCount="indefinite"/>
+  </g>
+  <!-- card 2 -->
+  <g opacity="0">
+    <rect x="308" y="190" width="150" height="34" rx="8" fill="#0d1a2e" stroke="#a78bfa" stroke-width="0.8" opacity="0.85"/>
+    <text x="383" y="212" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" fill="#a78bfa" font-weight="700">⚛️ React · Node.js</text>
+    <animate attributeName="opacity" values="0;0;1;1;0" dur="6s" begin="2s" repeatCount="indefinite"/>
+  </g>
+  <!-- card 3 -->
+  <g opacity="0">
+    <rect x="308" y="190" width="150" height="34" rx="8" fill="#0d1a2e" stroke="#38bdae" stroke-width="0.8" opacity="0.85"/>
+    <text x="383" y="212" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" fill="#38bdae" font-weight="700">🤖 AI · ML · Data</text>
+    <animate attributeName="opacity" values="0;0;1;1;0" dur="6s" begin="4s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- stat pills -->
+  <rect x="478" y="190" width="118" height="34" rx="8" fill="#0d1a2e" stroke="#bf91f3" stroke-width="0.8" opacity="0.85"/>
+  <text x="537" y="208" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8b949e">LeetCode Rating</text>
+  <text x="537" y="220" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" fill="#bf91f3" font-weight="700">⚡ 1429 Max</text>
+
+  <rect x="608" y="190" width="118" height="34" rx="8" fill="#0d1a2e" stroke="#38bdae" stroke-width="0.8" opacity="0.85"/>
+  <text x="667" y="208" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8b949e">Problems Solved</text>
+  <text x="667" y="220" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" fill="#38bdae" font-weight="700">✅ 170+ DSA</text>
+
+  <rect x="738" y="190" width="118" height="34" rx="8" fill="#0d1a2e" stroke="#70a5fd" stroke-width="0.8" opacity="0.85"/>
+  <text x="797" y="208" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8b949e">Certifications</text>
+  <text x="797" y="220" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" fill="#70a5fd" font-weight="700">🏅 10+ Certs</text>
+
+  <!-- ── Tech stack floating chips ── -->
+  <g font-family="'Courier New',monospace" font-size="10.5" font-weight="600">
+    <rect x="308" y="240" width="64" height="20" rx="5" fill="#1c2b1c" stroke="#4ade80" stroke-width="0.7"/>
+    <text x="340" y="254" text-anchor="middle" fill="#4ade80">Python</text>
+
+    <rect x="382" y="240" width="52" height="20" rx="5" fill="#1a1c2e" stroke="#70a5fd" stroke-width="0.7"/>
+    <text x="408" y="254" text-anchor="middle" fill="#70a5fd">React</text>
+
+    <rect x="444" y="240" width="48" height="20" rx="5" fill="#1c1a14" stroke="#f59e0b" stroke-width="0.7"/>
+    <text x="468" y="254" text-anchor="middle" fill="#f59e0b">Java</text>
+
+    <rect x="502" y="240" width="66" height="20" rx="5" fill="#131e13" stroke="#4ade80" stroke-width="0.7"/>
+    <text x="535" y="254" text-anchor="middle" fill="#4ade80">Node.js</text>
+
+    <rect x="578" y="240" width="48" height="20" rx="5" fill="#1a1c2e" stroke="#60a5fa" stroke-width="0.7"/>
+    <text x="602" y="254" text-anchor="middle" fill="#60a5fa">AWS</text>
+
+    <rect x="636" y="240" width="76" height="20" rx="5" fill="#1e1320" stroke="#a78bfa" stroke-width="0.7"/>
+    <text x="674" y="254" text-anchor="middle" fill="#a78bfa">PostgreSQL</text>
+
+    <rect x="722" y="240" width="74" height="20" rx="5" fill="#122020" stroke="#38bdae" stroke-width="0.7"/>
+    <text x="759" y="254" text-anchor="middle" fill="#38bdae">MongoDB</text>
+
+    <rect x="806" y="240" width="50" height="20" rx="5" fill="#1a1c2e" stroke="#f472b6" stroke-width="0.7"/>
+    <text x="831" y="254" text-anchor="middle" fill="#f472b6">ML/AI</text>
+  </g>
+
+  <!-- ── Bottom shimmer bar ── -->
+  <rect x="0" y="337" width="900" height="3" fill="url(#shimmer)" rx="2">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
+
+</div>
+
+<!-- ═══════════════════════════ TYPING SVG ═══════════════════════════ -->
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=900&color=70A5FD&center=true&vCenter=true&width=780&lines=Full+Stack+Developer+%7C+Java+Enthusiast+%E2%98%95;AI+%2B+ML+Explorer+%F0%9F%A4%96;Deloitte+%7C+Tata+GenAI+%7C+PwC+Certified+%F0%9F%8F%85;Building+scalable+solutions+one+commit+at+a+time+%F0%9F%9A%80)](https://git.io/typing-svg)
+
+</div>
+
+<!-- ════════════════════════ SOCIAL BADGES ════════════════════════ -->
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/inbarasan-jp)
@@ -10,13 +232,6 @@
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/inbarasanjpcse2023-stack)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=inbarasanjpcse2023-stack&color=70a5fd&style=for-the-badge&label=Profile+Views)
-
-</div>
-
-<!-- ═══════════════════════════ TYPING SVG ═══════════════════════════ -->
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2800&pause=900&color=70A5FD&center=true&vCenter=true&width=780&lines=Hey+there%2C+I'm+Inbarasan+%F0%9F%91%8B;Full+Stack+Developer+%7C+Java+Enthusiast+%E2%98%95;AI+%2B+ML+Explorer+%F0%9F%A4%96;Deloitte+%7C+Tata+GenAI+%7C+PwC+Certified+%F0%9F%8F%85;Building+scalable+solutions+one+commit+at+a+time+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 </div>
 
